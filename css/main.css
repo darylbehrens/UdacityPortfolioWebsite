@@ -1,0 +1,103 @@
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body{
+	background: #cccccc;
+}
+
+.mylogo{
+	margin: auto;
+	display:block;
+}
+
+hr{
+	border: 2px solid #ddd;
+}
+
+h4{
+	margin: 10px;
+}
+
+h3{
+	margin: 5px;
+}
+
+.itemsheader{
+	text-align: center;
+	opacity: .5;
+}
+
+.title{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+
+.mybanner{
+	width:100%;
+}
+
+.items{
+	margin-bottom: 30px;
+}
+
+.links{
+	text-align: center;
+}
+
+.img-responsive{
+	margin:auto;
+}
+
+.itempicture{
+	height: 200px;
+	margin-bottom:0;
+}
+
+.social{
+	text-align: right;
+}
+
+.iconfont{
+	margin-right: 10px;
+}
+
+header{
+	margin-top: 20px;
+}
+
+.lastitem{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+@media only screen and (min-width: 768px)
+{
+	.mylogo{
+		display:flex;
+		margin: 0;
+	}
+
+	.title{
+		text-align: right;
+	}
+
+	.itemsheader{
+		text-align: left;
+	}
+
+	.items{
+		margin-bottom: 5px;
+	}
+
+	.lastitem{
+		margin-top:0;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.lastitem{
+		margin-top: 20px;
+	}
+}
